@@ -1,8 +1,14 @@
 import { useState } from "react";
 import Parent from "./props/Parent";
+import GuestList from "./state/GuestList";
 
 function App() {
-  return <Parent />;
+  return (
+    <>
+      {/* <Parent /> */}
+      <GuestList />
+    </>
+  );
 }
 
 export default App;
